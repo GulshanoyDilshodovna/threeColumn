@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+
+}
+.wrapper {
+    background-color: snow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.2);
+    height: 85vh;
+    width: 100%;
+    line-height: 1.6;
+    width: 90vw;
+}
+.cards{
+    width: 900px;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-1{
+    background-color: rgb(192, 128, 8);
+}
+.card-2{
+    background-color: rgb(17, 13, 102);
+}
+.card-3{
+    background-color: rgb(4, 80, 4);
+}
+.card{
+    width: 300px;
+    padding: 2rem;
+}
+h1{
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+p, h1, button{
+    margin: 1rem 0;
+}
+p{
+    font-size: 14px;
+    text-align: justify;
+    opacity: 0.8;
+    font-weight: normal;
+}
+button{
+    padding: .6rem 1rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.2);
+    outline: none;
+    transition: .5s;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.card-1 button{
+    background-color: rgb(192, 128, 8);
+}
+.card-2 button{
+    background-color: rgb(19, 14, 116);
+}
+.card-3 button{
+    background-color: rgb(4, 95, 4);
+}
+button:hover{
+    cursor: pointer;
+    background-color: snow;
+    position: relative;
+    bottom: 2px;
+}
+.card-1 button:hover{
+    color:rgb(192, 128, 8) ;
+}
+.card-2 button:hover{
+    color:rgb(19, 14, 116);
+}
+.card-3 button:hover{
+    color: rgb(4, 95, 4);
+}
